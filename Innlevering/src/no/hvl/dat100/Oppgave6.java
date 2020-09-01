@@ -15,7 +15,7 @@ public class Oppgave6 {
 	
 	public static long n_factorial(long n) {
 		for(int i = (int) n - 1; i > 0; i--)
-			n = n * (i);
+			n = n * i;
 		return n;
 	}
 }
